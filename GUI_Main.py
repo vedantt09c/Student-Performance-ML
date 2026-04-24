@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jan 29 14:27:05 2021
-
-@author: om
-"""
 
 import tkinter as tk
 from tkinter import ttk, LEFT, END
@@ -15,16 +9,11 @@ import sqlite3
 import os
 import numpy as np
 import time
-#from tkvideo import tkvideo
-#import video_capture as value
-#import lecture_details as detail_data
-#import video_second as video1
 
-#import lecture_video  as video
 
 global fn
 fn = ""
-##############################################+=============================================================
+
 root = tk.Tk()
 root.configure(background="brown")
 # root.geometry("1300x700")
@@ -40,7 +29,7 @@ video_label.pack()
 # read video to display on label
 #player = tkvideo("IMG", video_label,loop = 1, size = (w, h))
 #player.play()
-# ++++++++++++++++++++++++++++++++++++++++++++
+
 
 
 
@@ -60,21 +49,6 @@ label_l1 = tk.Label(root, text="Student Performance Prediction System",font=("Ti
                     background="Maroon", fg="white", width=50, height=1)
 label_l1.place(x=0, y=0)
 
-#T1.tag_configure("center", justify='center')
-#T1.tag_add("center", 1.0, "end")
-
-################################$%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-#def clear_img():
-#    img11 = tk.Label(root, background='bisque2')
-#    img11.place(x=0, y=0)
-
-
-#################################################################$%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-################################$%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-#
 
 def reg():
     from subprocess import call
